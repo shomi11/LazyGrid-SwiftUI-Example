@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA60258D264FB32000E95719 /* LazyGrid_SuperCarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60258C264FB32000E95719 /* LazyGrid_SuperCarsApp.swift */; };
+		CA602591264FB32100E95719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA602590264FB32100E95719 /* Assets.xcassets */; };
+		CA602594264FB32100E95719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA602593264FB32100E95719 /* Preview Assets.xcassets */; };
+		CA60259E265002CF00E95719 /* LoadingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60259D265002CF00E95719 /* LoadingExtension.swift */; };
+		CA6025A02650037400E95719 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60259F2650037400E95719 /* HomeScreen.swift */; };
+		CA6025A2265003AA00E95719 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6025A1265003AA00E95719 /* Car.swift */; };
+		CA6025A426500C7200E95719 /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = CA6025A326500C7200E95719 /* cars.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA602589264FB32000E95719 /* LazyGrid-SuperCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LazyGrid-SuperCars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60258C264FB32000E95719 /* LazyGrid_SuperCarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_SuperCarsApp.swift; sourceTree = "<group>"; };
+		CA602590264FB32100E95719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA602593264FB32100E95719 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA602595264FB32100E95719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA60259D265002CF00E95719 /* LoadingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingExtension.swift; sourceTree = "<group>"; };
+		CA60259F2650037400E95719 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CA6025A1265003AA00E95719 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CA6025A326500C7200E95719 /* cars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA602586264FB32000E95719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA602580264FB32000E95719 = {
+			isa = PBXGroup;
+			children = (
+				CA6025A326500C7200E95719 /* cars.json */,
+				CA60258B264FB32000E95719 /* LazyGrid-SuperCars */,
+				CA60258A264FB32000E95719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA60258A264FB32000E95719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA602589264FB32000E95719 /* LazyGrid-SuperCars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA60258B264FB32000E95719 /* LazyGrid-SuperCars */ = {
+			isa = PBXGroup;
+			children = (
+				CA60258C264FB32000E95719 /* LazyGrid_SuperCarsApp.swift */,
+				CA60259F2650037400E95719 /* HomeScreen.swift */,
+				CA602590264FB32100E95719 /* Assets.xcassets */,
+				CA602595264FB32100E95719 /* Info.plist */,
+				CA602592264FB32100E95719 /* Preview Content */,
+				CA60259D265002CF00E95719 /* LoadingExtension.swift */,
+				CA6025A1265003AA00E95719 /* Car.swift */,
+			);
+			path = "LazyGrid-SuperCars";
+			sourceTree = "<group>";
+		};
+		CA602592264FB32100E95719 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA602593264FB32100E95719 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA602588264FB32000E95719 /* LazyGrid-SuperCars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA602598264FB32100E95719 /* Build configuration list for PBXNativeTarget "LazyGrid-SuperCars" */;
+			buildPhases = (
+				CA602585264FB32000E95719 /* Sources */,
+				CA602586264FB32000E95719 /* Frameworks */,
+				CA602587264FB32000E95719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LazyGrid-SuperCars";
+			productName = "LazyGrid-SuperCars";
+			productReference = CA602589264FB32000E95719 /* LazyGrid-SuperCars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA602581264FB32000E95719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CA602588264FB32000E95719 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CA602584264FB32000E95719 /* Build configuration list for PBXProject "LazyGrid-SuperCars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA602580264FB32000E95719;
+			productRefGroup = CA60258A264FB32000E95719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA602588264FB32000E95719 /* LazyGrid-SuperCars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA602587264FB32000E95719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA602594264FB32100E95719 /* Preview Assets.xcassets in Resources */,
+				CA6025A426500C7200E95719 /* cars.json in Resources */,
+				CA602591264FB32100E95719 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA602585264FB32000E95719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6025A02650037400E95719 /* HomeScreen.swift in Sources */,
+				CA60259E265002CF00E95719 /* LoadingExtension.swift in Sources */,
+				CA6025A2265003AA00E95719 /* Car.swift in Sources */,
+				CA60258D264FB32000E95719 /* LazyGrid_SuperCarsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA602596264FB32100E95719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA602597264FB32100E95719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA602599264FB32100E95719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyGrid-SuperCars/Preview Content\"";
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LazyGrid-SuperCars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milosmalovic11.LazyGrid-SuperCars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA60259A264FB32100E95719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyGrid-SuperCars/Preview Content\"";
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LazyGrid-SuperCars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milosmalovic11.LazyGrid-SuperCars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA602584264FB32000E95719 /* Build configuration list for PBXProject "LazyGrid-SuperCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA602596264FB32100E95719 /* Debug */,
+				CA602597264FB32100E95719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA602598264FB32100E95719 /* Build configuration list for PBXNativeTarget "LazyGrid-SuperCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA602599264FB32100E95719 /* Debug */,
+				CA60259A264FB32100E95719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA602581264FB32000E95719 /* Project object */;
+}

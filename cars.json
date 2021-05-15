@@ -1,0 +1,66 @@
+
+
+
+[
+    {
+      "name": "Aston Martin Vanquish",
+      "description": "The second-generation Vanquish was introduced in 2012, based on the Aston Martin's VH platform, followed in 2017 by a Vanquish S' with a more powerful engine and improved aerodynamics. The second-generation Vanquish was succeeded by the DBS Superleggera in 2018.",
+      "topSpeed": "295"
+    },
+    {
+      "name": "Bugatti Veyron",
+      "description": "The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in Germany by the Bugatti Engineering GmbH and manufactured by the Bugatti Automobiles SAS in Molsheim, France. The Veyron's fundamental concept is based on a technical draft of Bugatti chief engineer and Technical Guru Frank Götzke and it was named after the racing driver Pierre Veyron.",
+      "topSpeed": "431"
+    },
+    {
+      "name": "Ferrari 488 GTB",
+      "description": "The Ferrari 488 (Type F142M) is a mid-engine sports car produced by the Italian automobile manufacturer Ferrari. The car replaced the 458, being the first mid-engine Ferrari to use a turbocharged V8 since the F40. The car is powered by a 3.9-litre twin-turbocharged V8 engine, smaller in displacement but generating a higher power output than the 458's naturally aspirated engine. The 488 GTB was named The Supercar of the Year 2015 by car magazine Top Gear.",
+      "topSpeed": "330"
+    },
+    {
+      "name": "Ford Mustang GT Hennessey",
+      "description": "The Ford Mustang is a series of American automobiles manufactured by Ford. In continuous production since 1964, the Mustang is currently the longest-produced Ford car nameplate. Currently in its sixth generation, it is the fifth-best selling Ford car nameplate. The namesake of the pony car automobile segment, the Mustang was developed as a highly styled line of sporty coupes and convertibles derived from existing model lines, initially distinguished by long hood, short deck proportions.",
+      "topSpeed": "330"
+    },
+    {
+      "name": "Koenigsegg Agera R",
+      "description": "The Koenigsegg Agera is a mid-engine sports car produced by Swedish car manufacturer Koenigsegg. It is a successor to the CCX/CCXR. The name comes from the Swedish verb 'agera' which means to act or in imperative form (You) act!. It was named Hypercar of the Year in 2010 by Top Gear magazine. The Agera RS variant became the world's fastest production car in 2017, setting a record with a GPS-verified two-way average top speed of 447 km/h (278 mph) and a fastest straight-line speed of 458 km/h",
+       "topSpeed": "458"
+    },
+    {
+      "name": "Lamborghini Centenario",
+      "description": "The Centenario is the first Lamborghini automobile to be deployed with rear-wheel steering. The system is designed to provide added maneuverability at low speed, in a city driving environment, and improved stability at high speed. This is also the first Lamborghini model to be equipped with the company's new infotainment system. The system consists of a new 10.1-inch portrait screen which also records telemetry and driving data. The car also serves as a base for showcasing the new aerodynamic advancements developed by the company. A twin-deck splitter at the front helps in generating downforce as well as to let air pass through the side of the car while working in conjunction with the side blades. The Centenario also has the largest rear diffusers to ever be incorporated into a car, the diffusers along with the electronically controlled twin deck rear-wing aids further in downforce. The car generates 227 kg (500 lb) of downforce at 280 km/h.",
+        "topSpeed": "350"
+    },
+    {
+      "name": "Lamborghini Huracane",
+      "description": "The Lamborghini Huracán (Spanish for hurricane; [uɾaˈkan]) is a sports car manufactured by Italian automotive manufacturer Lamborghini replacing the previous V10 offering, the Gallardo. The Huracán made its worldwide debut at the 2014 Geneva Auto Show, and was released in the market in the second quarter of 2014. The LP 610-4 designation comes from the car having a 610 metric horsepower and 4 wheel drive, while LP stands for Longitudinale Posteriore, which refers to the longitudinal mid-rear engine position",
+        "topSpeed": "341"
+    },
+    {
+      "name": "Lexus rc-F",
+      "description": "The Lexus RC (Japanese: レクサス・RC, Rekusasu RC) is a compact executive two-door coupé manufactured by Lexus, Toyota's luxury division. The RC which according to Lexus stands for Radical Coupe is a two-door coupé version of the Lexus IS (XE30). The RC is designated as the XC10 series. The RC borrowed styling from the LF-LC concept and was previewed by the LF-CC concept, being designed as a proposal by Pansoo Kwon from 2010 to early 2012 and approved by supervising designers Yasuo Kajino and Tatsuya Takei",
+        "topSpeed": "270"
+    },
+    {
+      "name": "Mclaren f1 gtr",
+      "description": "The McLaren F1 GTR is a racing variant of the McLaren F1 sports car first produced in 1995 for grand touring style racing, such as the BPR Global GT Series, FIA GT Championship, JGTC, and British GT Championship. It was powered by the naturally aspirated BMW S70/2 V12 engine. It is most famous for its overall victory at the 1995 24 Hours of Le Mans where it won against faster purpose-built prototypes in very wet conditions. The F1 GTR raced internationally until 2005 when the final race chassis was retired",
+        "topSpeed": "330"
+    },
+    {
+      "name": "Mercedes Benz amg gt",
+      "description": "The Mercedes-AMG GT (C190 / R190) is a grand tourer produced in coupé and roadster bodystyles by German automobile manufacturer Mercedes-AMG. The car was introduced on 9 September 2014 and was officially unveiled to the public in October 2014 at the Paris Motor Show. After the SLS AMG, it is the second sports car developed entirely in-house by Mercedes-AMG. The Mercedes-AMG GT went on sale in two variants (GT and GT S) in March 2015, while a GT3 racing variant of the car was introduced in 2015. A high performance variant called the GT R was introduced in 2016. A GT4 racing variant, targeted at semi-professional drivers and based on the GT R variant, was introduced in 2017. Recently, a new variant called the AMG GT Black series has been released. All variants are assembled at the Mercedes-Benz plant in Sindelfingen, Germany",
+        "topSpeed": "319"
+    },
+    {
+      "name": "Nissan gt r",
+      "description": "The Nissan GT-R is a high-performance sports car and grand tourer produced by Nissan that was unveiled in 2007. It is the successor to the Skyline GT-R, a high performance variant of the Nissan Skyline. Although the car is the sixth-generation model to bear the GT-R name, the model is no longer part of the Nissan Skyline model lineup since that name is now reserved for Nissan's luxury-sport vehicles. The GT-R shares the Nissan FM platform with the now separate Nissan Skyline luxury car and the Nissan Z-car sports car",
+        "topSpeed": "333"
+    },
+    {
+      "name": "Porsche 911 GT3 RS",
+      "description": "The Porsche 911 GT3 is a high-performance homologation model of the Porsche 911 sports car. It is a line of high-performance models, which began with the 1973 911 Carrera RS. The GT3 has had a successful racing career in the one-make national and regional Porsche Carrera Cup and GT3 Cup Challenge series, as well as the international Porsche Supercup supporting the FIA Formula 1 World Championship.",
+        "topSpeed": "325"
+    }
+]
+
